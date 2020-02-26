@@ -3,7 +3,7 @@
   "version": "3.1.1",
   "description": "Run Google Chrome Lighthouse on AWS Lambda.",
   "engines": {
-    "node": "8.10.x"
+    "node": "10.13.x"
   },
   "main": "lib/index.js",
   "files": [
@@ -38,6 +38,7 @@
   "homepage": "https://github.com/joytocode/lighthouse-lambda#readme",
   "dependencies": {
     "@serverless-chrome/lambda": "^1.0.0-54",
+    "chrome-aws-lambda": "^2.1.1",
     "lighthouse": "^3.0.3"
   },
   "devDependencies": {
